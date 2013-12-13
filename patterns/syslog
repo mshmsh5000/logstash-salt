@@ -1,1 +1,1 @@
-MESSAGE (Already[A-Za-z :_]\+)
+DOSOMETHING %{SYSLOGTIMESTAMP:Date:}\s(?<Server name:>(.*?))\s((.*?))\|(?<timestamp>\d+)\|(?<Message source:>[\w\s]+)\|(?<IP:>[0-9\.]+)\|(?<URL>[^\|]+)\|([^\|]+\|)?(?<User ID:>\d+)?\|?\|(\d+\|)?\|?(?<Message:>(.*))
