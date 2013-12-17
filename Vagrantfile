@@ -24,6 +24,9 @@ Vagrant.configure("2") do |config|
   
   # Assuming something will use this
   config.vm.network :forwarded_port, guest: 8080, host: 15003
+
+  # redis server
+  config.vm.network :forwarded_port, guest: 6379, host: 6379
   
   ## Use all the defaults:
   config.vm.provision :salt do |salt|

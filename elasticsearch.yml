@@ -1,0 +1,2 @@
+cluster.name: logstash
+node.name: "precise64"
